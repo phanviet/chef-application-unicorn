@@ -6,7 +6,7 @@ This cookbook helps you setup the `unicorn` config to run a rails application wi
   + [application-defaults](https://github.com/phanviet/chef-application-defaults.git)
   + [application-monit](https://github.com/phanviet/chef-application-monit.git)
 - Some related cookbooks:
-  + [application-nginx](https://github.com/phanviet/chef-application-unicorn.git)
+  + [application-nginx](https://github.com/phanviet/chef-application-nginx.git)
 
 Attributes
 ----------
