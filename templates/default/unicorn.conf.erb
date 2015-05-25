@@ -1,0 +1,4 @@
+check process unicorn-<%= node[:app][:name] %> with pidfile <%= node[:app][:unicorn][:pid] %>
+  start program "<%= node[:app][:services_path] %>/unicorn-<%= node[:app][:name] %> start 0"
+  stop program "<%= node[:app][:services_path] %>/unicorn-<%= node[:app][:name] %> stop 0"
+  if 5 restarts within 5 cycles then timeout
